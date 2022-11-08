@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'nmax'
+
+count = Integer(ARGV.first, exception: false)
+
+unless count
+  puts 'Missing or incorrect parameter passed. Please check the arguments.'
+  return
+end
+
+begin
+  puts Nmax.max_numbers count
+rescue ArgumentError
+  puts 'Invalid data passed.'
+rescue StandardError => e
+  puts e.message
+end
