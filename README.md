@@ -1,3 +1,5 @@
+[![Ruby](https://github.com/kanigreg/nmax/actions/workflows/main.yml/badge.svg)](https://github.com/kanigreg/nmax/actions/workflows/main.yml)
+
 # Nmax
 
 Find 'N' maximum numbers.
