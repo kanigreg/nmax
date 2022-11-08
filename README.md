@@ -23,7 +23,7 @@ bundle install
 ### Command Line
 
 ```shell
-cat [filepath] | bundle exec bin/nmax <count>
+cat <filepath> | bundle exec bin/nmax <count>
 ```
 
 ### Convenience API
